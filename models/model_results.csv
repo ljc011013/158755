@@ -1,0 +1,5 @@
+model	MAE	RMSE	R2	MAPE
+SARIMAX + log(Lodged Bonds)	9.96	11.78	0.582	1.78
+SARIMA(1,1,2)(0,1,1,12)	10.02	11.84	0.5779	1.79
+Prophet + COVID + Chch regressors	24.25	25.53	-0.9623	4.3
+Seasonal Naive (12-month lag)	34.38	36.13	-2.9284	6.14
